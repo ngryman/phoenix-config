@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "phoenix",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -cw"
+  },
+  "devDependencies": {
+    "rollup": "^0.56.5",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-node-resolve": "^3.2.0"
+  }
+}
