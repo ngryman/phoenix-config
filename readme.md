@@ -14,6 +14,7 @@ My [Phoenix](https://github.com/kasper/phoenix) setup, work in progress...
  - [x] Maximize/restore
  - [x] Move to screen
  - [x] Display grid size
+ - [x] Move in grid
  - [ ] Resize in grid
  - [x] Open a workspace
  - [ ] Close a workspace
