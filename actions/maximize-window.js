@@ -10,5 +10,6 @@ export default function maximizeWindow() {
   else {
     framesCache.set(window.hash(), window.frame())
     window.maximize()
+    window.snapToGrid()
   }
 }
