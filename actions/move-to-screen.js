@@ -4,5 +4,6 @@ export default function moveToScreen(identifier) {
 
   if (screen) {
     window.moveToScreen(screen)
+    window.focus()
   }
 }
