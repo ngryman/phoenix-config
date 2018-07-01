@@ -6,7 +6,7 @@ import * as actions from './actions'
 Key.on('g', HYPER_KEY, actions.displayGrid)
 
 Key.on('space', HYPER_KEY, actions.maximizeWindow)
-// TODO: with shift set fullscreen
+Key.on('space', HYPER_SHIFT_KEY, actions.toggleFullscreen)
 
 Key.on('1', HYPER_KEY, _.partial(actions.moveToScreen, MBP_SCREEN_UID))
 Key.on('2', HYPER_KEY, _.partial(actions.moveToScreen, BIG_SCREEN_UID))
