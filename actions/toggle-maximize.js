@@ -1,6 +1,6 @@
 const framesCache = new Map()
 
-export default function maximizeWindow() {
+export default function toggleMaximize() {
   const window = Window.focused()
 
   if (window.isMaximized()) {

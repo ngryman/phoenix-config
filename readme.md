@@ -11,8 +11,8 @@ My [Phoenix](https://github.com/kasper/phoenix) setup, work in progress...
 
 ### Actions
 
- - [x] Maximize/restore
- - [x] Fullscreen/restore
+ - [x] Toggle maximize
+ - [x] Toggle fullscreen
  - [x] Move to screen
  - [x] Display grid size
  - [x] Move in grid
